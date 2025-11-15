@@ -20,8 +20,8 @@ class Rasterflow < Formula
   depends_on "gobject-introspection"
 
   # libgtkflow4 dependencies
-  depends_on "flatscrew/flatscrew/libgflow"
-  depends_on "flatscrew/flatscrew/libgtkflow4"
+  depends_on "flatscrew/osx/libgflow"
+  depends_on "flatscrew/osx/libgtkflow4"
 
   def install
     system "meson", "setup", "build", *std_meson_args
