@@ -10,8 +10,8 @@ class Libgflow < Formula
   depends_on "pkg-config" => :build
   depends_on "vala" => :build
 
-  depends_on "gobject-introspection"
   depends_on "glib"
+  depends_on "gobject-introspection"
 
   def install
     system "meson", "setup", "build", *std_meson_args, "-Denable_valadoc=false"

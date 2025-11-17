@@ -11,8 +11,8 @@ class Libgtkflow4 < Formula
   depends_on "vala" => :build
 
   depends_on "flatscrew/osx/libgflow"
-  depends_on "gobject-introspection"
   depends_on "glib"
+  depends_on "gobject-introspection"
   depends_on "gtk4"
   depends_on "libadwaita"
 
