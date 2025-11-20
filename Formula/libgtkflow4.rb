@@ -1,8 +1,8 @@
 class Libgtkflow4 < Formula
   desc "GTK4 widgets for visual node-based flow graphs"
   homepage "https://github.com/flatscrew/libgtkflow4"
-  url "https://github.com/flatscrew/libgtkflow4/archive/refs/tags/v0.2.tar.gz"
-  sha256 "a86130f23504e61e27dd2dd9a7277c83d3e222890fed7b11adcd66b33d4306ad"
+  url "https://github.com/flatscrew/libgtkflow4/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "001afa6fc0063a8b2b33e6491fd772c58bd53564545cc125ac4058aae40fde7d"
   license "GPL-3.0"
 
   depends_on "meson" => :build
